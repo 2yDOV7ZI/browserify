@@ -62,7 +62,7 @@ function Browserify (files, opts) {
             })
         }
     }
-    
+    console.log('Test');
     self._options = opts;
     if (opts.noparse) opts.noParse = opts.noparse;
     
